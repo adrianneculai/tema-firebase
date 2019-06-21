@@ -1,0 +1,102 @@
+#inputZone {
+    width: 80%;
+    background-color: rgb(255, 211, 14);
+    text-align: center;
+    display: inline-block;
+    border: 1px;
+    font-family: sans-serif;
+    font-size: 16pt;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.outZone {
+    width: 80%;
+    background-color: rgb(255, 211, 14);
+    text-align: center;
+    display: inline-block;
+    border: 1px;
+    font-family: sans-serif;
+    font-size: 16pt;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.radius {
+    border-radius: 5px;
+    border: 1px none;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(253, 247, 195);
+}
+
+input:focus {
+    box-shadow: 0 0 0 2px rgb(153, 153, 158);
+}
+
+.tableAlign {
+    display: inline;
+    font-family: sans-serif;
+    font-size: 16pt;
+    table-layout: fixed;
+    margin: 200px auto;
+    table-layout: auto;
+}
+
+#header {
+    color: brown;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+td {
+    width: 150px;
+    text-align: center;
+    vertical-align: 50%;
+}
+
+u {
+    color: blue;
+}
+
+.tableButton {
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 2px 2px 2px 1px rgb(133, 133, 133);
+}
+.tableButton:active {
+    background-color: rgb(213, 213, 218);
+    color: black;
+    box-shadow: 1px 1px 1px 1px rgb(66, 66, 66)
+}
+.tableData {
+    font-weight: bold;
+}
+table {
+    margin: auto;
+}
+#outPut {
+    text-align: center;
+}

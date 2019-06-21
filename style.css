@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    padding: 50px;
+    background-color: rgb(184, 248, 248);
+    border-radius: 50%;
+}
+
+a {
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+
+div:hover {
+    background-color: white;
+}
+
+#agenda:hover {
+    background-color: yellow;
+    font-size: 200%;
+}
+
+#shopping:hover {
+    background-color: rgb(253, 136, 247);
+    font-size: 200%;
+}
